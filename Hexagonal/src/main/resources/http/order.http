@@ -1,0 +1,10 @@
+### 주문 생성
+POST http://localhost:8080/orders
+Content-Type: application/json
+
+{
+  "name": "홍길동",
+  "phoneNumber": "010-1234-5678",
+  "paymentId": "PAY123456",
+  "totalPrice": 50000
+}
