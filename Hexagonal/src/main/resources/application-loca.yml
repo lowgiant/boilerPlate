@@ -16,3 +16,6 @@ spring:
     url: ${SPRING_DATASOURCE_URL}
     username: ${MYSQL_USERNAME}
     password: ${MYSQL_PASSWORD}
+
+error-trace:
+  stack-trace: ${STACK-TRACE}
